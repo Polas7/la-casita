@@ -1,0 +1,199 @@
+body{
+
+}
+.pasto {
+	margin-left: -30px;
+	position: fixed;
+	width: 1400px;
+	height: 100px;
+	top: 550px;
+	background: green;
+}
+
+
+
+/* solicito */
+.sol{
+    background: yellow;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+}
+.sol:before, .sol:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: yellow;
+}
+.sol:before {
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+}
+.sol:after {
+    -webkit-transform: rotate(60deg);
+       -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+         -o-transform: rotate(60deg);
+}
+
+.paredes{
+	position: fixed;
+	width: 400px;
+	height: 200px;
+	background: red;
+	position: relative;
+	margin-left: 700px;
+	background-color: #CC6E2B;
+	top: 280px;
+}
+
+.techo{
+	border-bottom: 150px solid #85481C;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	height: 0;
+	width: 300px;
+	margin-left: 650px;
+	position: fixed;
+}
+.puerta{
+	margin-left: 900px;
+	top: 480px;
+	width: 80px;
+	height: 90px;
+	background: #D12A0F;
+	position: fixed;
+}
+.ventana{
+	margin-left: 1000px;
+	top: 450px;
+	width: 50px;
+	height: 50px;
+	background: #038FD1;
+	position:  fixed;
+}
+.ventana1{
+	margin-left: 750px;
+	top: 450px;
+	width: 50px;
+	height: 50px;
+	background: #038FD1;
+	position:  fixed;
+}
+.chimenea{
+	margin-left: 770px;
+	top: 250px;
+	width: 60px;
+	height: 90px;
+	background: black;
+	position: fixed;
+}
+.nube1{
+	margin-left: 770px;
+	top: 200px;
+	background: grey;
+	position: fixed;
+/*tamaño circulo*/
+	width: 30px;
+	height: 30px;
+	
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.nube2{
+	margin-left: 790px;	
+	top: 150px;
+	background: grey;
+	position: fixed;
+/*tamaño circulo*/
+	width: 25px;
+	height: 25px;
+	
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.nube3{
+	margin-left: 800px;	
+	top: 100px;
+	background: grey;
+	position: fixed;
+/*tamaño circulo*/
+	width: 20px;
+	height: 20px;
+	
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.corazon{
+	position: relative;
+    width: 100px;
+    height: 90px;
+    margin-left: 910px;
+	top: 480px;
+	width: 60px;
+	background: #D12A0F;
+	position: fixed;
+}
+.corazon:before,
+.corazon:after {
+    position: absolute;
+    content: "";
+    left: 30px;
+    top: 0;
+    width: 30px;
+    height: 60px;
+    background: red;
+    -moz-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.corazon:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
